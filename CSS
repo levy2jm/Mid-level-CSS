@@ -1,0 +1,155 @@
+/*
+The links below were provided to me from Harjeet in order to get the icons for the social networks to appear.
+Unfortunately they do not seem to be working whenever I run the this code.
+*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+body {
+	
+	line-height: 1.5em;
+	font-family: Open Sans, sans-serif;
+	font-size: 15px;
+	color: #bfbfbf;
+	background-color: lightgray;
+}	
+
+h1,h2,h3 {
+	font-family: Montserrat, sans-serif;
+}
+
+h2 {
+	color: gray;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+p {
+	text-align: justify;
+}
+
+p strong {
+	font-weight: bold;
+	color: gray;
+}
+
+a {
+	color: #ccc;
+	text-decoration: none;
+}
+
+#movies h3{
+	font-size: 16px;
+	font-weight: bold;
+	color: gray;
+}
+.card{
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  margin: 10px auto}
+#movies td {
+	padding: 5px;
+}
+
+#movies img {
+	width: 80px;
+}
+
+#movies {
+	font-size: 15px;
+	line-height: 1.6em;
+}
+
+;
+}
+
+.card list-inline {
+	margin: 10px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.list-inline {
+	padding-left: 0;
+}
+
+.list-inline li {
+	display: inline-block;
+	width: 30%;
+}
+
+.list-inline li i{
+  font-size: 25px;
+}
+
+.btn-danger{
+  background-color: #cc0000;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#wrapper {
+	margin: 20px auto;
+	border-radius: 2px;
+	display: table;
+	padding: 20px;
+	width: 1000px;
+	background-color: lightgray;
+}
+
+#left-container {
+	float: left;
+	width: 35%;
+}
+
+#left-container h1{
+	color: #cc0000;
+	text-align: center;
+	font-size: 21px
+}
+
+#left-container h2{
+	text-align: center;
+}
+
+#left-container img {
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	border: 3px solid #cccccc;
+	text-align: center;
+}
+
+#right-container {
+	background-color: white;
+	float: right;
+	width: 60%;
+}
+
+.clear {
+	clear: both;
+}
+
+#footer {
+	background-color: white;
+	position: relative;
+	padding: 10px 400px 60px 20px;
+}
+
+#share {
+	position: absolute;
+	text-align: center;
+  	bottom: 10px;
+  	right: 0px;
+}
+
+#share li{
+	display: inline-block;
+	width: 90px;
+}
